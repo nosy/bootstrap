@@ -6,7 +6,7 @@ To get started, check out [http://getbootstrap.com](http://getbootstrap.com)!
 
 
 
-## Quick start
+## 快速启动
 
 Three quick start options are available:
 
@@ -26,7 +26,7 @@ You may use [this JS Bin](http://jsbin.com/aFacAf/1/edit) as a template for your
 
 
 
-## Documentation
+## 文档
 
 Bootstrap's documentation, included in this repo in the root directory, is built with [Jekyll](http://jekyllrb.com) and publicly hosted on GitHub Pages at [http://getbootstrap.com](http://getbootstrap.com). The docs may also be run locally.
 
@@ -47,11 +47,11 @@ Documentation for v2.3.2 has been made available for the time being at [http://g
 
 
 
-## Compiling CSS and JavaScript
+## 编译CSS和JavaScript
 
 Bootstrap uses [Grunt](http://gruntjs.com/) with convenient methods for working with the framework. It's how we compile our code, run tests, and more. To use it, install the required dependencies as directed and then run some Grunt commands.
 
-### Install Grunt
+### 安装Grunt
 
 From the command line:
 
@@ -62,27 +62,27 @@ When completed, you'll be able to run the various Grunt commands provided from t
 
 **Unfamiliar with `npm`? Don't have node installed?** That's a-okay. npm stands for [node packaged modules](http://npmjs.org/) and is a way to manage development dependencies through node.js. [Download and install node.js](http://nodejs.org/download/) before proceeding.
 
-### Available Grunt commands
+### 可用的Grunt命令
 
-#### Build - `grunt`
+#### 创建 - `grunt`
 Run `grunt` to run tests locally and compile the CSS and JavaScript into `/dist`. **Requires [recess](https://github.com/twitter/recess) and [uglify-js](https://github.com/mishoo/UglifyJS).**
 
 #### Only compile CSS and JavaScript - `grunt dist`
 `grunt dist` creates the `/dist` directory with compiled files. **Requires [recess](https://github.com/twitter/recess) and [uglify-js](https://github.com/mishoo/UglifyJS).**
 
-#### Tests - `grunt test`
+#### 测试 - `grunt test`
 Runs jshint and qunit tests headlessly in [phantomjs](https://github.com/ariya/phantomjs/) (used for CI). **Requires [phantomjs](https://github.com/ariya/phantomjs/).**
 
-#### Watch - `grunt watch`
+#### 察看 - `grunt watch`
 This is a convenience method for watching just Less files and automatically building them whenever you save.
 
-### Troubleshooting dependencies
+### 故障排除依赖
 
 Should you encounter problems with installing dependencies or running Grunt commands, uninstall all previous dependency versions (global and local). Then, rerun `npm install`.
 
 
 
-## Contributing
+## 贡献
 
 Please read through our guidelines for contributing to Bootstrap. Included are directions for opening issues, coding standards, and notes on development.
 
@@ -92,7 +92,7 @@ Editor preferences are available in the [editor config](.editorconfig) for easy 
 
 
 
-## Community
+## 社区
 
 Keep track of development and community news.
 
@@ -104,7 +104,7 @@ Keep track of development and community news.
 
 
 
-## Versioning
+## 版本
 
 For transparency and insight into our release cycle, and for striving to maintain backward compatibility, Bootstrap will be maintained under the Semantic Versioning guidelines as much as possible.
 
@@ -122,7 +122,7 @@ For more information on SemVer, please visit [http://semver.org/](http://semver.
 
 
 
-## Authors
+## 作者
 
 **Mark Otto**
 
